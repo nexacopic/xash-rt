@@ -10,7 +10,7 @@ jobs:
         include:
           - os: windows-latest
             targetos: win32
-            targetarch: amd64
+            targetarch: x86
     env:
       SDL_VERSION: 2.0.14
       GH_CPU_ARCH: ${{ matrix.targetarch }}
